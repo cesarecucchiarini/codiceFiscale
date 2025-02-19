@@ -1,0 +1,14 @@
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\codiceFisacale\codiceFisacale\bin\Debug\net8.0\codiceFisacale.exe
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\codiceFisacale\codiceFisacale\bin\Debug\net8.0\codiceFisacale.deps.json
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\codiceFisacale\codiceFisacale\bin\Debug\net8.0\codiceFisacale.runtimeconfig.json
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\codiceFisacale\codiceFisacale\bin\Debug\net8.0\codiceFisacale.dll
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\codiceFisacale\codiceFisacale\bin\Debug\net8.0\codiceFisacale.pdb
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\codiceFisacale\codiceFisacale\obj\Debug\net8.0\codiceFisacale.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\codiceFisacale\codiceFisacale\obj\Debug\net8.0\codiceFisacale.AssemblyInfoInputs.cache
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\codiceFisacale\codiceFisacale\obj\Debug\net8.0\codiceFisacale.AssemblyInfo.cs
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\codiceFisacale\codiceFisacale\obj\Debug\net8.0\codiceFisacale.csproj.CoreCompileInputs.cache
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\codiceFisacale\codiceFisacale\obj\Debug\net8.0\codiceFisacale.dll
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\codiceFisacale\codiceFisacale\obj\Debug\net8.0\refint\codiceFisacale.dll
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\codiceFisacale\codiceFisacale\obj\Debug\net8.0\codiceFisacale.pdb
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\codiceFisacale\codiceFisacale\obj\Debug\net8.0\codiceFisacale.genruntimeconfig.cache
+C:\Users\cucchiarini.cesare\Desktop\progetti C#\codiceFisacale\codiceFisacale\obj\Debug\net8.0\ref\codiceFisacale.dll
