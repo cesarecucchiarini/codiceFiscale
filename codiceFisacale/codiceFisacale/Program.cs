@@ -1,9 +1,12 @@
 ﻿//VOID
 void creaCodice(string cognome, ref string codice,string nome, string anno, string mese,int giorno, string sesso, string comune)
 {
-    string vocali = "AEIOU", nomeControllo="", lettere="ABCDEHLMPRST", percorso="../../../../comuni.txt";
-    string[] mesi = { "gennaio", "febbraio", "marzo", "aprile", 
+    string vocali = "AEIOU", nomeControllo = "", lettere = "ABCDEHLMPRST", percorso = "../../../../comuni.txt";
+    string[] mesi = { "gennaio", "febbraio", "marzo", "aprile",
         "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"};
+    int valoreFinale = 0;
+    string caratteri = "A0B1C2D3E4F5G6H7I8J9K L M N O P Q R S T U V W X Y Z";
+    int[] valori = { 1,1, 0,0, 5,5, 7,7, 9,9, 13,13, 15,15, 17,17, 19,19, 21,0, 2,0, 4,0, 18,0, 20,0, 11,0, 3,0, 6,0, 8,0, 12,0, 14,0, 16,0, 10,0, 22,0, 25,0, 24,0, 23 };
     //COGNOME
     for(int i = 0; i < cognome.Length && codice.Length<3; i++)
     {
@@ -33,7 +36,7 @@ void creaCodice(string cognome, ref string codice,string nome, string anno, stri
     }
     if(nomeControllo.Length >= 4)
     {
-        codice += nome[0] + nome.Substring(2);
+        codice += nomeControllo[0] + nomeControllo.Substring(2);
     }
     else
     {
@@ -80,6 +83,18 @@ void creaCodice(string cognome, ref string codice,string nome, string anno, stri
             codice += codici[i + 12];
         }
     }
+    //ULTIMA CIFRA
+    //NON FUNZIA
+    for(int i=0;i< codice.Length; i += 2)
+    {
+            valoreFinale += caratteri.IndexOf(codice[i]) / 2;
+    }
+    for(int i=1;i< codice.Length; i += 2)
+    {
+            valoreFinale += valori[caratteri.IndexOf(codice[i])];
+    }
+    valoreFinale /= 26;
+    codice += caratteri[valoreFinale * 2];
 }
 //MAIN
 string codice="";
@@ -94,7 +109,7 @@ nome = nome.Replace(" ", "").ToUpper();
 Console.WriteLine("Dammi il tuo anno di nascita");
 string anno = Console.ReadLine();
 
-Console.WriteLine("Dimmi il mese di nascita");
+Console.WriteLine("Dimmi il mese di nascita (es. gennaio)");
 string mese=Console.ReadLine();
 
 Console.WriteLine("Dammi il giorno di nascita");

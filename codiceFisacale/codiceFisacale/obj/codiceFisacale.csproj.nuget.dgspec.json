@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cucchiarini.cesare\\Desktop\\progetti C#\\codiceFisacale\\codiceFisacale\\codiceFisacale.csproj": {}
+    "C:\\Users\\cucchiarini.cesare\\Desktop\\progetti C#\\codiceFiscale\\codiceFisacale\\codiceFisacale\\codiceFisacale.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cucchiarini.cesare\\Desktop\\progetti C#\\codiceFisacale\\codiceFisacale\\codiceFisacale.csproj": {
+    "C:\\Users\\cucchiarini.cesare\\Desktop\\progetti C#\\codiceFiscale\\codiceFisacale\\codiceFisacale\\codiceFisacale.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cucchiarini.cesare\\Desktop\\progetti C#\\codiceFisacale\\codiceFisacale\\codiceFisacale.csproj",
+        "projectUniqueName": "C:\\Users\\cucchiarini.cesare\\Desktop\\progetti C#\\codiceFiscale\\codiceFisacale\\codiceFisacale\\codiceFisacale.csproj",
         "projectName": "codiceFisacale",
-        "projectPath": "C:\\Users\\cucchiarini.cesare\\Desktop\\progetti C#\\codiceFisacale\\codiceFisacale\\codiceFisacale.csproj",
+        "projectPath": "C:\\Users\\cucchiarini.cesare\\Desktop\\progetti C#\\codiceFiscale\\codiceFisacale\\codiceFisacale\\codiceFisacale.csproj",
         "packagesPath": "C:\\Users\\cucchiarini.cesare\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cucchiarini.cesare\\Desktop\\progetti C#\\codiceFisacale\\codiceFisacale\\obj\\",
+        "outputPath": "C:\\Users\\cucchiarini.cesare\\Desktop\\progetti C#\\codiceFiscale\\codiceFisacale\\codiceFisacale\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cucchiarini.cesare\\AppData\\Roaming\\NuGet\\NuGet.Config",

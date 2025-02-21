@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("codiceFisacale")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+469327734ca47e852295b5dbc142c5d2fddd254d")]
 [assembly: System.Reflection.AssemblyProductAttribute("codiceFisacale")]
 [assembly: System.Reflection.AssemblyTitleAttribute("codiceFisacale")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
