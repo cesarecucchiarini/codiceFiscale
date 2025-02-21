@@ -27,3 +27,18 @@ C:\Users\cucchiarini.cesare\Desktop\progetti C#\codiceFiscale\codiceFisacale\cod
 C:\Users\cucchiarini.cesare\Desktop\progetti C#\codiceFiscale\codiceFisacale\codiceFisacale\obj\Debug\net8.0\codiceFisacale.pdb
 C:\Users\cucchiarini.cesare\Desktop\progetti C#\codiceFiscale\codiceFisacale\codiceFisacale\obj\Debug\net8.0\codiceFisacale.genruntimeconfig.cache
 C:\Users\cucchiarini.cesare\Desktop\progetti C#\codiceFiscale\codiceFisacale\codiceFisacale\obj\Debug\net8.0\ref\codiceFisacale.dll
+C:\Users\sergi\OneDrive\Desktop\progettiC#\codiceFiscale\codiceFisacale\codiceFisacale\bin\Debug\net8.0\codiceFisacale.exe
+C:\Users\sergi\OneDrive\Desktop\progettiC#\codiceFiscale\codiceFisacale\codiceFisacale\bin\Debug\net8.0\codiceFisacale.deps.json
+C:\Users\sergi\OneDrive\Desktop\progettiC#\codiceFiscale\codiceFisacale\codiceFisacale\bin\Debug\net8.0\codiceFisacale.runtimeconfig.json
+C:\Users\sergi\OneDrive\Desktop\progettiC#\codiceFiscale\codiceFisacale\codiceFisacale\bin\Debug\net8.0\codiceFisacale.dll
+C:\Users\sergi\OneDrive\Desktop\progettiC#\codiceFiscale\codiceFisacale\codiceFisacale\bin\Debug\net8.0\codiceFisacale.pdb
+C:\Users\sergi\OneDrive\Desktop\progettiC#\codiceFiscale\codiceFisacale\codiceFisacale\obj\Debug\net8.0\codiceFisacale.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergi\OneDrive\Desktop\progettiC#\codiceFiscale\codiceFisacale\codiceFisacale\obj\Debug\net8.0\codiceFisacale.AssemblyInfoInputs.cache
+C:\Users\sergi\OneDrive\Desktop\progettiC#\codiceFiscale\codiceFisacale\codiceFisacale\obj\Debug\net8.0\codiceFisacale.AssemblyInfo.cs
+C:\Users\sergi\OneDrive\Desktop\progettiC#\codiceFiscale\codiceFisacale\codiceFisacale\obj\Debug\net8.0\codiceFisacale.csproj.CoreCompileInputs.cache
+C:\Users\sergi\OneDrive\Desktop\progettiC#\codiceFiscale\codiceFisacale\codiceFisacale\obj\Debug\net8.0\codiceFisacale.sourcelink.json
+C:\Users\sergi\OneDrive\Desktop\progettiC#\codiceFiscale\codiceFisacale\codiceFisacale\obj\Debug\net8.0\codiceFisacale.dll
+C:\Users\sergi\OneDrive\Desktop\progettiC#\codiceFiscale\codiceFisacale\codiceFisacale\obj\Debug\net8.0\refint\codiceFisacale.dll
+C:\Users\sergi\OneDrive\Desktop\progettiC#\codiceFiscale\codiceFisacale\codiceFisacale\obj\Debug\net8.0\codiceFisacale.pdb
+C:\Users\sergi\OneDrive\Desktop\progettiC#\codiceFiscale\codiceFisacale\codiceFisacale\obj\Debug\net8.0\codiceFisacale.genruntimeconfig.cache
+C:\Users\sergi\OneDrive\Desktop\progettiC#\codiceFiscale\codiceFisacale\codiceFisacale\obj\Debug\net8.0\ref\codiceFisacale.dll

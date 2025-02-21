@@ -85,16 +85,15 @@ void creaCodice(string cognome, ref string codice,string nome, string anno, stri
     }
     //ULTIMA CIFRA
     //NON FUNZIA
-    for(int i=0;i< codice.Length; i += 2)
+    for(int i=1;i< codice.Length; i += 2)
     {
             valoreFinale += caratteri.IndexOf(codice[i]) / 2;
     }
-    for(int i=1;i< codice.Length; i += 2)
+    for(int i=0;i< codice.Length; i += 2)
     {
             valoreFinale += valori[caratteri.IndexOf(codice[i])];
     }
-    valoreFinale /= 26;
-    codice += caratteri[valoreFinale * 2];
+    codice += caratteri[(valoreFinale %26)*2];
 }
 //MAIN
 string codice="";
