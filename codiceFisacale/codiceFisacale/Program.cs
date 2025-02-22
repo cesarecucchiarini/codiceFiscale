@@ -1,5 +1,5 @@
 ﻿//VOID
-void creaCodice(string cognome, ref string codice,string nome, string anno, string mese,int giorno, string sesso, string comune)
+void creaCodice(string cognome, ref string codice,string nome, string data, string sesso, string comune)
 {
     string vocali = "AEIOU", nomeControllo = "", lettere = "ABCDEHLMPRST", percorso = "../../../../comuni.txt";
     string[] mesi = { "gennaio", "febbraio", "marzo", "aprile",
@@ -53,25 +53,19 @@ void creaCodice(string cognome, ref string codice,string nome, string anno, stri
     {
         codice += 'X';
     }
+    string[] datiNascita = data.Split('/');
     //ANNO
-    codice += anno.Substring(anno.Length - 2);
+    codice += datiNascita[0].Substring(datiNascita[0].Length - 2);
     //MESE
-    for(int i = 0; i < mesi.Length; i++)
-    {
-        if (mese == mesi[i])
-        {
-            codice += lettere[i];
-            i = 13;
-        }
-    }
+    codice += lettere[int.Parse(datiNascita[1])-1];
     //GIORNO
     if (sesso == "M")
     {
-        codice += giorno.ToString();
+        codice += datiNascita[2];
     }
     else
     {
-        codice += (giorno + 40).ToString();
+        codice += (int.Parse(datiNascita[2] + 40)).ToString();
     }
     //COMUNE
     string fileCompleto=File.ReadAllText(percorso);
@@ -84,7 +78,6 @@ void creaCodice(string cognome, ref string codice,string nome, string anno, stri
         }
     }
     //ULTIMA CIFRA
-    //NON FUNZIA
     for(int i=1;i< codice.Length; i += 2)
     {
             valoreFinale += caratteri.IndexOf(codice[i]) / 2;
@@ -105,14 +98,8 @@ Console.WriteLine("Dammi il nome (se ne hai più di uno mettili tutti separati d
 string nome=Console.ReadLine();
 nome = nome.Replace(" ", "").ToUpper();
 
-Console.WriteLine("Dammi il tuo anno di nascita");
-string anno = Console.ReadLine();
-
-Console.WriteLine("Dimmi il mese di nascita (es. gennaio)");
-string mese=Console.ReadLine();
-
-Console.WriteLine("Dammi il giorno di nascita");
-int giorno = int.Parse(Console.ReadLine());
+Console.WriteLine("Dammi la tua data di nascita (AAAA/MM/GG)");
+string data = Console.ReadLine();
 
 Console.WriteLine("Dimmi il tuo sesso (M o F)");
 string sesso=Console.ReadLine();
@@ -121,5 +108,5 @@ sesso = sesso.ToUpper();
 Console.WriteLine("Dimmi il comune di nascita");
 string comune=Console.ReadLine();
 
-creaCodice(cogn, ref codice,nome, anno, mese.ToLower(), giorno, sesso, comune);
+creaCodice(cogn, ref codice,nome, data, sesso, comune);
 Console.WriteLine($"Il tuo codice fiscale è {codice}");
