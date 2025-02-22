@@ -59,6 +59,10 @@ void creaCodice(string cognome, ref string codice,string nome, string data, stri
     //MESE
     codice += lettere[int.Parse(datiNascita[1])-1];
     //GIORNO
+    if (datiNascita[2].Length < 2)
+    {
+        datiNascita[2] = $"0{datiNascita[2]}";
+    }
     if (sesso == "M")
     {
         codice += datiNascita[2];
